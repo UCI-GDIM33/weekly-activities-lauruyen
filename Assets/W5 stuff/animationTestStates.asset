@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 530e556d4407947dcae7102ff497587d, type: 3}
+  m_Name: animationTestStates
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"title":"HighSchoolerStates","summary":null,"pan":{"x":36.97113,"y":77.2493},"zoom":1.0,"elements":[{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Idle","summary":null,"pan":{"x":70.06988,"y":-149.8504},"zoom":0.66,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-152.0,"y":-312.0},"guid":"0c9f88b2-4fd8-4d0f-a004-350d27e53416","$version":"A","$type":"Unity.VisualScripting.OnEnterState"},{"position":{"xMin":-200.0,"yMin":-378.0,"xMax":238.0,"yMax":175.0},"label":"change
+      animation","comment":null,"color":{"r":0.2434797,"g":1.0,"b":0.0,"a":1.0},"guid":"95490afe-a16d-423f-b6af-0e4bbcae1223","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}},"isStart":true,"position":{"x":-82.0,"y":-71.0},"width":170.0,"guid":"d0c0bbff-0f99-464d-8ca2-d2a4caa78d86","$version":"A","$type":"Unity.VisualScripting.FlowState","$id":"3"},{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Walk","summary":null,"pan":{"x":229.5012,"y":-96.41669},"zoom":0.54,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-173.0,"y":-323.0},"guid":"6588b5cc-7b7c-409e-85e2-677a96eee52d","$version":"A","$type":"Unity.VisualScripting.OnEnterState"},{"position":{"xMin":-218.6296,"yMin":-414.7778,"xMax":299.8889,"yMax":182.4444},"label":"change
+      animation","comment":null,"color":{"r":0.3895686,"g":1.0,"b":0.0,"a":1.0},"guid":"592a1bdd-2c39-4e37-a1e9-5ecc96d22002","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}},"isStart":false,"position":{"x":-68.0,"y":156.0},"width":170.0,"guid":"a2913ff1-127a-4d0e-88d1-87c563612adf","$version":"A","$type":"Unity.VisualScripting.FlowState","$id":"16"},{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"IdleToWalk","summary":null,"pan":{"x":78.49945,"y":-4.749832},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":100.0,"y":-50.0},"guid":"509d91a7-4521-41d6-8bfe-46e4ca841388","$version":"A","$type":"Unity.VisualScripting.TriggerStateTransition"}],"$version":"A"}},"source":{"$ref":"3"},"destination":{"$ref":"16"},"guid":"b826bd99-d5c3-4d8e-8e54-15b719ed8e30","$version":"A","$type":"Unity.VisualScripting.FlowStateTransition"},{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"WalkToIdle","summary":null,"pan":{"x":12.99927,"y":-3.500214},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":100.0,"y":-50.0},"guid":"02484974-1776-4513-a664-fd20bb0717b3","$version":"A","$type":"Unity.VisualScripting.TriggerStateTransition"}],"$version":"A"}},"source":{"$ref":"16"},"destination":{"$ref":"3"},"guid":"30087023-6751-4fff-97db-33504e22ca55","$version":"A","$type":"Unity.VisualScripting.FlowStateTransition"}],"$version":"A"}}'
+    _objectReferences: []
